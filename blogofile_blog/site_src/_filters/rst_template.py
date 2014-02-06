@@ -15,4 +15,5 @@ config = HC(
 
 
 def run(content):
-    return docutils.core.publish_parts(content, writer_name='html')['html_body']
+    return docutils.core.publish_parts(content, writer_name='html', settings_overrides={'syntax_highlight': 'short'})['html_body']
+
