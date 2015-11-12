@@ -1,3 +1,4 @@
+*.swp
 *.pyc
 *~
 /blogofile_blog.egg-info/*
